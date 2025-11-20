@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <style>
+    body {
+      background-color: #a2e2f7db;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding-top: 7px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      width: 600px;
+      margin: 0 auto;
+    }
+
+   
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input {
+      background-color: white;
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+  input:hover {
+      background-color: rgb(15, 134, 209);
+    }
+    
+    a{
+            color: white;
+            padding: 20px;
+            text-decoration: none;
+     }
+       
+    
+  </style>
+</head>
+<body>
+    <nav id="nav" style="background-color: #a2e2f7db;">
+      <div style="background-color:rgb(109, 216, 249);">
+          
+        <a style="background-color: rgb(101, 211, 254); color:rgb(0, 0, 0) ; font-size: 20pt; ">Learning English Easily</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      <a class="nav-link" href="Home.html" >Home</a>
+      <a href="AboutUs.html">About Us</a>
+      <a class="nav-link" href="Teachers.html">Teachers</a>
+      <a href="ContactUs.html">Contact Us</a>
+      <a href="Review.html">Review</a>
+      <a href="WorkSheets.html">Work Sheets</a>
+    </div>
+    
+
+     </nav> 
+     <br><br>
+  <div class="container" >
+    <h1>Contact Us</h1>
+    <form  method="POST" action="#">
+      
+      Name :<input type="text" id="name" name="name" required style="background-color: white;">
+
+      
+      Email:<input type="email" id="email" name="email" required  style="background-color: white;" >
+
+      
+     Message: <textarea id="message" name="message" rows="5" required ></textarea>
+
+<input type="submit" value="submit">  
+  </form>
+  </div>
+    
+</body>
+</html>
